@@ -7,6 +7,12 @@
  */
 public class WriteIFs
 {
+    int x = 0;
+      int tt_t = 0;
+      int tt_s = 1;
+      String ss = "";
+      int oo1 = 61;
+      int oo2 = 49;
  
     public void playerDied(boolean player1) {
         // Write an IF statement that checks “player1.isAlive()” 
@@ -28,7 +34,7 @@ public class WriteIFs
         }
 
         
-        //return this.ss;
+        return this.ss;
     }
 
     public void fireplaceControl(Object fireplace1) {
